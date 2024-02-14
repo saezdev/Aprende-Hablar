@@ -263,12 +263,18 @@ no se solape con el navBar */
   transform: scale(1.03);
 }
 
-.fixed-bottom {
+.fixed-bottoms {
   position:fixed;
   left:0px;
   bottom:0px;
   height:60px;
   width:100%;
+}
+
+@media (max-width: 575px) {
+  .mediaQuery {
+      margin-top: 50px !important;
+  }
 }
 
 

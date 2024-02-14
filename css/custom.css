@@ -244,7 +244,7 @@ no se solape con el navBar */
   transform: scale(1.03);
 }
 
-.fixed-bottom {
+.fixed-bottoms {
   position: fixed;
   left: 0px;
   bottom: 0px;
@@ -252,6 +252,11 @@ no se solape con el navBar */
   width: 100%;
 }
 
+@media (max-width: 575px) {
+  .mediaQuery {
+    margin-top: 50px !important;
+  }
+}
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
