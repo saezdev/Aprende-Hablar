@@ -1,0 +1,52 @@
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.footer-column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-column h3 {
+  margin-bottom: 15px;
+}
+
+.footer-column a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.format-image {
+  width: 200px;
+  height: 200px;
+}
+
+/* Margen chapucero para que la seccion introduccion 
+no se solape con el navBar */
+#introduccion {
+  padding-top: 150px;
+}
+
+.card-img-top:hover {
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.03);
+}
+
+.card-hover:hover {
+  border-color: black;
+}
+
+.cart:hover {
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.03);
+}

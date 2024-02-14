@@ -1,0 +1,267 @@
+$success: #cc213dd8; // Color utilizado para en navbar y footes
+
+$primary: #2f4c8f; //Color utilizado para los botones 
+
+$secondary: #39333A; //Color mayoritariamente utilizado para el texto
+
+$info: #FFFFFF; //Color utilizado para el texto que se encuentra sobre colores
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.fontTitulos {
+  font-family: 'Roboto', sans-serif;
+}
+
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+
+p,
+label,
+input {
+  font-family: "Montserrat", sans-serif;
+}
+
+.object-fit-scale {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+:root {
+  scrollbar-color: $primary $info ;
+  scrollbar-width: thin;
+}
+
+.link-footer {
+  font-weight: 720;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.link-footer:hover {
+  color: #b0b6c0 !important;
+  font-family: "Montserrat", sans-serif;
+}
+
+.micolor {
+  // background: #2F4C8F;
+  // background: linear-gradient(to right, #2F4C8F 0%, #CBD2E3 100%);
+  // -webkit-background-clip: text;
+  // -webkit-text-fill-color: transparent;
+  color: $primary;
+}
+
+nav img {
+  background-color: white;
+  border-radius: 10px;
+}
+
+nav span {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.foot {
+  color: $info;
+}
+
+.banner {
+  width: 100vh;
+}
+
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+
+.pricing5 {
+  font-family: "Montserrat", sans-serif;
+  color: #8d97ad;
+  font-weight: 300;
+}
+
+.pricing5 h1,
+.pricing5 h2,
+.pricing5 h3,
+.pricing5 h4,
+.pricing5 h5,
+.pricing5 h6 {
+  color: #3e4555;
+}
+
+// .pricing5 h5 {
+// 	line-height: 22px;
+// 	font-size: 18px;
+// }
+
+.pricing5 .font-weight-medium {
+  font-weight: 500;
+}
+
+.pricing5 .bg-light {
+  background-color: #f4f8fa !important;
+}
+
+.pricing5 .subtitle {
+  color: #525865;
+  line-height: 24px;
+}
+
+.pricing5 .card.card-shadow {
+  -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+  box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+}
+
+.pricing5 .general-listing {
+  margin: 90px 0 60px 0;
+}
+
+.pricing5 .card {
+  background-size: 100% !important;
+}
+
+.pricing5 .yearly {
+  display: none;
+}
+
+.pricing5 .pricing-box {
+  margin-top: 120px;
+}
+
+.pricing5 .pricing-box .middle-box {
+  margin-top: -75px;
+}
+
+.pricing5 .pricing-box .middle-box .general-listing {
+  margin-top: 60px;
+}
+
+@media (max-width: 767px) {
+  .pricing5 .pricing-box {
+    margin-top: 40px;
+  }
+
+  .pricing5 .pricing-box .middle-box {
+    margin-top: 0px;
+  }
+}
+
+.pricing5 .btn-success-gradiant {
+  background: #1b3e90;
+  background: -webkit-linear-gradient(legacy-direction(to right), #849edb 0%, #1dc8cc 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#849edb), to(#1dc8cc));
+  background: -webkit-linear-gradient(left, #849edb 0%, #1dc8cc 100%);
+  background: -o-linear-gradient(left, #849edb 0%, #1dc8cc 100%);
+  background: linear-gradient(to right, #849edb 0%, #1dc8cc 100%);
+
+}
+
+.pricing5 .btn-success-gradiant:hover {
+  background: #1b3e90;
+  background: -webkit-linear-gradient(legacy-direction(to right), #1dc8cc 0%, #849edb 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#1dc8cc), to(#849edb));
+  background: -webkit-linear-gradient(left, #1dc8cc 0%, #849edb 100%);
+  background: -o-linear-gradient(left, #1dc8cc 0%, #849edb 100%);
+  background: linear-gradient(to right, #1dc8cc 0%, #849edb 100%);
+
+}
+
+.pricing5 .btn-md {
+  padding: 15px 45px;
+  font-size: 16px;
+}
+
+.pricing5 .rounded-left {
+  border-top-left-radius: 60px !important;
+  border-bottom-left-radius: 60px !important;
+}
+
+.pricing5 .rounded-right {
+  border-top-right-radius: 60px !important;
+  border-bottom-right-radius: 60px !important;
+}
+
+.pricing5 .btn-outline-success {
+  color: #1b3e90;
+  background-color: transparent;
+  border-color: #1b3e90;
+}
+
+.pricing5 .btn-outline-success:hover {
+  background: #1b3e90;
+  border-color: #1b3e90;
+  color: #ffffff;
+}
+
+// Hover del boton de Comprar
+.cont-hover:hover {
+  background-color: $primary !important;
+}
+
+.border-card {
+  border: 2px solid #849edb !important;
+}
+
+/* Estilo para los hover de los links de la Navegación */
+.my-link {
+  font-weight: 720 !important;
+}
+
+.my-link:hover {
+  color: #b0b6c0 !important;
+  /* Cambia esto al color que prefieras */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.footer-column {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-column h3 {
+  margin-bottom: 15px;
+}
+
+.footer-column a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.format-image {
+  width: 200px;
+  height: 200px;
+}
+
+/* Margen chapucero para que la seccion introduccion 
+no se solape con el navBar */
+#introduccion {
+  padding-top: 150px;
+}
+
+.card-img-top:hover {
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.03);
+}
+
+.card-hover:hover {
+  border-color: black;
+}
+
+.cart:hover {
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1.03);
+}
+
+
+@import "scss/bootstrap.scss";
