@@ -264,16 +264,16 @@ no se solape con el navBar */
 }
 
 .fixed-bottoms {
-  position:fixed;
-  left:0px;
-  bottom:0px;
-  height:60px;
-  width:100%;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: 60px;
 }
 
 @media (max-width: 575px) {
   .mediaQuery {
-      margin-top: 50px !important;
+    margin-top: 50px !important;
   }
 }
 
